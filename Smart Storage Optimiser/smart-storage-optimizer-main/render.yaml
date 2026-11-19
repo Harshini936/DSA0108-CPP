@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: smart-storage-optimizer
-    env: node
-    plan: free
-    buildCommand: ""
-    startCommand: "node web-dashboard/server.js"
-    healthCheckPath: /
